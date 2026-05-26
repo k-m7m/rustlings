@@ -1,7 +1,12 @@
 fn main() {
     // TODO: Create an array called `a` with at least 100 elements in it.
     // let a = ???
+    // let mut a = vec![];
 
+    // for i in 0..100 {
+    //     a.push(i);
+    // }
+    let a = ["a"; 100];
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
